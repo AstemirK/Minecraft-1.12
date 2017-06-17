@@ -1,17 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="JAVA_MODULE" version="4">
   <component name="EclipseModuleManager">
-    <libelement value="file://E:\Users\Louis\Documents\Programmation\Java\Minecraft\1.12\MCP 940/jars/minecraft_server.1.12.jar" />
-    <libelement value="file://E:\Users\Louis\Documents\Programmation\Java\Minecraft\1.12\MCP 940/jars/libraries/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.jar" />
-    <varelement var="file://E:\Users\Louis\Documents\Programmation\Java\Minecraft\1.12\MCP 940/src/minecraft_server" kind="linksrc:" value="src" />
-    <varelement var="file://E:\Users\Louis\Documents\Programmation\Java\Minecraft\1.12\MCP 940/jars/minecraft_server.1.12.jar" kind="link:" value="jars/minecraft_server.1.12.jar" />
-    <varelement var="file://E:\Users\Louis\Documents\Programmation\Java\Minecraft\1.12\MCP 940/jars/libraries/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.jar" kind="link:" value="jars/libraries/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.jar" />
-    <varelement var="file://E:\Users\Louis\Documents\Programmation\Java\Minecraft\1.12\MCP 940/jars/libraries/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1-sources.jar" kind="linksrc:" value="jars/libraries/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1-sources.jar" />
+    <libelement value="jar://$MCP_LOC$/jars/minecraft_server.1.12.jar!/" />
+    <libelement value="jar://$MCP_LOC$/jars/libraries/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.jar!/" />
+    <varelement var="file://$MCP_LOC$/src/minecraft_server" kind="linksrc:" value="src" />
+    <varelement var="jar://$MCP_LOC$/jars/minecraft_server.1.12.jar!/" kind="link:" value="jars/minecraft_server.1.12.jar" />
+    <varelement var="jar://$MCP_LOC$/jars/libraries/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.jar!/" kind="link:" value="jars/libraries/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.jar" />
+    <varelement var="jar://$MCP_LOC$/jars/libraries/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1-sources.jar!/" kind="linksrc:" value="jars/libraries/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1-sources.jar" />
     <src_description expected_position="0">
-      <src_folder value="file://E:\Users\Louis\Documents\Programmation\Java\Minecraft\1.12\MCP 940/src/minecraft_server" expected_position="0" />
+      <src_folder value="file://$MCP_LOC$/src/minecraft_server" expected_position="0" />
     </src_description>
   </component>
-  <component name="NewModuleRootManager">
+  <component name="FacetManager">
+    <facet type="minecraft" name="Minecraft">
+      <configuration>
+        <autoDetectTypes>
+          <platformType>MCP</platformType>
+        </autoDetectTypes>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
     <output url="file://$MODULE_DIR$/Server/bin" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/Server" />
@@ -19,14 +28,25 @@
       <sourceFolder url="file://$MCP_LOC$/src/minecraft_server" isTestSource="false" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="module-library">
       <library name="minecraft_server.1.12.jar">
         <CLASSES>
-          <root url="file://$MCP_LOC$/jars/minecraft_server.1.12.jar" />
+          <root url="jar://$MCP_LOC$/jars/minecraft_server.1.12.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jsr305-3.0.1.jar">
+        <CLASSES>
+          <root url="jar://$MCP_LOC$/jars/libraries/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$MCP_LOC$/jars/libraries/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1-sources.jar!/" />
+        </SOURCES>
       </library>
     </orderEntry>
   </component>
