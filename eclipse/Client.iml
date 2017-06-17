@@ -73,19 +73,28 @@
       <src_folder value="file://E:\Users\Louis\Documents\Programmation\Java\Minecraft\1.12\MCP 940/src/minecraft" expected_position="0" />
     </src_description>
   </component>
+  <component name="FacetManager">
+    <facet type="minecraft" name="Minecraft">
+      <configuration>
+        <autoDetectTypes>
+          <platformType>MCP</platformType>
+        </autoDetectTypes>
+      </configuration>
+    </facet>
+  </component>
   <component name="NewModuleRootManager">
     <output url="file://$MODULE_DIR$/Client/bin" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/Client" />
-    <content url="file://E:\Users\Louis\Documents\Programmation\Java\Minecraft\1.12\MCP 940/src/minecraft">
-      <sourceFolder url="file://E:\Users\Louis\Documents\Programmation\Java\Minecraft\1.12\MCP 940/src/minecraft" isTestSource="false" />
+    <content url="file://$MCP_LOC$/src/minecraft">
+      <sourceFolder url="file://$MCP_LOC$/src/minecraft" isTestSource="false" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="module-library">
       <library name="1.12.jar">
         <CLASSES>
-          <root url="file://E:\Users\Louis\Documents\Programmation\Java\Minecraft\1.12\MCP 940/jars/versions/1.12/1.12.jar" />
+          <root url="file://$MCP_LOC$/jars/versions/1.12/1.12.jar" />
         </CLASSES>
         <JAVADOC />
         <NATIVE>
@@ -97,7 +106,7 @@
     <orderEntry type="module-library">
       <library name="patchy-1.1.jar">
         <CLASSES>
-          <root url="file://E:\Users\Louis\Documents\Programmation\Java\Minecraft\1.12\MCP 940/jars/libraries/com/mojang/patchy/1.1/patchy-1.1.jar" />
+          <root url="file://$MCP_LOC$/jars/libraries/com/mojang/patchy/1.1/patchy-1.1.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -106,7 +115,7 @@
     <orderEntry type="module-library">
       <library name="oshi-core-1.1.jar">
         <CLASSES>
-          <root url="file://E:\Users\Louis\Documents\Programmation\Java\Minecraft\1.12\MCP 940/jars/libraries/oshi-project/oshi-core/1.1/oshi-core-1.1.jar" />
+          <root url="file://$MCP_LOC$/jars/libraries/oshi-project/oshi-core/1.1/oshi-core-1.1.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -115,7 +124,7 @@
     <orderEntry type="module-library">
       <library name="jna-4.4.0.jar">
         <CLASSES>
-          <root url="file://E:\Users\Louis\Documents\Programmation\Java\Minecraft\1.12\MCP 940/jars/libraries/net/java/dev/jna/jna/4.4.0/jna-4.4.0.jar" />
+          <root url="file://$MCP_LOC$/jars/libraries/net/java/dev/jna/jna/4.4.0/jna-4.4.0.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -124,7 +133,7 @@
     <orderEntry type="module-library">
       <library name="platform-3.4.0.jar">
         <CLASSES>
-          <root url="file://E:\Users\Louis\Documents\Programmation\Java\Minecraft\1.12\MCP 940/jars/libraries/net/java/dev/jna/platform/3.4.0/platform-3.4.0.jar" />
+          <root url="file://$MCP_LOC$/jars/libraries/net/java/dev/jna/platform/3.4.0/platform-3.4.0.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -133,7 +142,7 @@
     <orderEntry type="module-library">
       <library name="icu4j-core-mojang-51.2.jar">
         <CLASSES>
-          <root url="file://E:\Users\Louis\Documents\Programmation\Java\Minecraft\1.12\MCP 940/jars/libraries/com/ibm/icu/icu4j-core-mojang/51.2/icu4j-core-mojang-51.2.jar" />
+          <root url="file://$MCP_LOC$/jars/libraries/com/ibm/icu/icu4j-core-mojang/51.2/icu4j-core-mojang-51.2.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -142,7 +151,7 @@
     <orderEntry type="module-library">
       <library name="jopt-simple-5.0.3.jar">
         <CLASSES>
-          <root url="file://E:\Users\Louis\Documents\Programmation\Java\Minecraft\1.12\MCP 940/jars/libraries/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar" />
+          <root url="file://$MCP_LOC$/jars/libraries/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -151,7 +160,7 @@
     <orderEntry type="module-library">
       <library name="codecjorbis-20101023.jar">
         <CLASSES>
-          <root url="file://E:\Users\Louis\Documents\Programmation\Java\Minecraft\1.12\MCP 940/jars/libraries/com/paulscode/codecjorbis/20101023/codecjorbis-20101023.jar" />
+          <root url="file://$MCP_LOC$/jars/libraries/com/paulscode/codecjorbis/20101023/codecjorbis-20101023.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -160,7 +169,7 @@
     <orderEntry type="module-library">
       <library name="codecwav-20101023.jar">
         <CLASSES>
-          <root url="file://E:\Users\Louis\Documents\Programmation\Java\Minecraft\1.12\MCP 940/jars/libraries/com/paulscode/codecwav/20101023/codecwav-20101023.jar" />
+          <root url="file://$MCP_LOC$/jars/libraries/com/paulscode/codecwav/20101023/codecwav-20101023.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -169,7 +178,7 @@
     <orderEntry type="module-library">
       <library name="libraryjavasound-20101123.jar">
         <CLASSES>
-          <root url="file://E:\Users\Louis\Documents\Programmation\Java\Minecraft\1.12\MCP 940/jars/libraries/com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123.jar" />
+          <root url="file://$MCP_LOC$/jars/libraries/com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -178,7 +187,7 @@
     <orderEntry type="module-library">
       <library name="librarylwjglopenal-20100824.jar">
         <CLASSES>
-          <root url="file://E:\Users\Louis\Documents\Programmation\Java\Minecraft\1.12\MCP 940/jars/libraries/com/paulscode/librarylwjglopenal/20100824/librarylwjglopenal-20100824.jar" />
+          <root url="file://$MCP_LOC$/jars/libraries/com/paulscode/librarylwjglopenal/20100824/librarylwjglopenal-20100824.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -187,7 +196,7 @@
     <orderEntry type="module-library">
       <library name="soundsystem-20120107.jar">
         <CLASSES>
-          <root url="file://E:\Users\Louis\Documents\Programmation\Java\Minecraft\1.12\MCP 940/jars/libraries/com/paulscode/soundsystem/20120107/soundsystem-20120107.jar" />
+          <root url="file://$MCP_LOC$/jars/libraries/com/paulscode/soundsystem/20120107/soundsystem-20120107.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -196,7 +205,7 @@
     <orderEntry type="module-library">
       <library name="netty-all-4.1.9.Final.jar">
         <CLASSES>
-          <root url="file://E:\Users\Louis\Documents\Programmation\Java\Minecraft\1.12\MCP 940/jars/libraries/io/netty/netty-all/4.1.9.Final/netty-all-4.1.9.Final.jar" />
+          <root url="file://$MCP_LOC$/jars/libraries/io/netty/netty-all/4.1.9.Final/netty-all-4.1.9.Final.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -205,7 +214,7 @@
     <orderEntry type="module-library">
       <library name="guava-21.0.jar">
         <CLASSES>
-          <root url="file://E:\Users\Louis\Documents\Programmation\Java\Minecraft\1.12\MCP 940/jars/libraries/com/google/guava/guava/21.0/guava-21.0.jar" />
+          <root url="file://$MCP_LOC$/jars/libraries/com/google/guava/guava/21.0/guava-21.0.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -214,7 +223,7 @@
     <orderEntry type="module-library">
       <library name="commons-lang3-3.5.jar">
         <CLASSES>
-          <root url="file://E:\Users\Louis\Documents\Programmation\Java\Minecraft\1.12\MCP 940/jars/libraries/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar" />
+          <root url="file://$MCP_LOC$/jars/libraries/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -223,7 +232,7 @@
     <orderEntry type="module-library">
       <library name="commons-io-2.5.jar">
         <CLASSES>
-          <root url="file://E:\Users\Louis\Documents\Programmation\Java\Minecraft\1.12\MCP 940/jars/libraries/commons-io/commons-io/2.5/commons-io-2.5.jar" />
+          <root url="file://$MCP_LOC$/jars/libraries/commons-io/commons-io/2.5/commons-io-2.5.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -232,7 +241,7 @@
     <orderEntry type="module-library">
       <library name="commons-codec-1.10.jar">
         <CLASSES>
-          <root url="file://E:\Users\Louis\Documents\Programmation\Java\Minecraft\1.12\MCP 940/jars/libraries/commons-codec/commons-codec/1.10/commons-codec-1.10.jar" />
+          <root url="file://$MCP_LOC$/jars/libraries/commons-codec/commons-codec/1.10/commons-codec-1.10.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -241,7 +250,7 @@
     <orderEntry type="module-library">
       <library name="jinput-2.0.5.jar">
         <CLASSES>
-          <root url="file://E:\Users\Louis\Documents\Programmation\Java\Minecraft\1.12\MCP 940/jars/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar" />
+          <root url="file://$MCP_LOC$/jars/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -250,7 +259,7 @@
     <orderEntry type="module-library">
       <library name="jutils-1.0.0.jar">
         <CLASSES>
-          <root url="file://E:\Users\Louis\Documents\Programmation\Java\Minecraft\1.12\MCP 940/jars/libraries/net/java/jutils/jutils/1.0.0/jutils-1.0.0.jar" />
+          <root url="file://$MCP_LOC$/jars/libraries/net/java/jutils/jutils/1.0.0/jutils-1.0.0.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -259,7 +268,7 @@
     <orderEntry type="module-library">
       <library name="gson-2.8.0.jar">
         <CLASSES>
-          <root url="file://E:\Users\Louis\Documents\Programmation\Java\Minecraft\1.12\MCP 940/jars/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar" />
+          <root url="file://$MCP_LOC$/jars/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -268,7 +277,7 @@
     <orderEntry type="module-library">
       <library name="authlib-1.5.25.jar">
         <CLASSES>
-          <root url="file://E:\Users\Louis\Documents\Programmation\Java\Minecraft\1.12\MCP 940/jars/libraries/com/mojang/authlib/1.5.25/authlib-1.5.25.jar" />
+          <root url="file://$MCP_LOC$/jars/libraries/com/mojang/authlib/1.5.25/authlib-1.5.25.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -277,7 +286,7 @@
     <orderEntry type="module-library">
       <library name="realms-1.10.16.jar">
         <CLASSES>
-          <root url="file://E:\Users\Louis\Documents\Programmation\Java\Minecraft\1.12\MCP 940/jars/libraries/com/mojang/realms/1.10.16/realms-1.10.16.jar" />
+          <root url="file://$MCP_LOC$/jars/libraries/com/mojang/realms/1.10.16/realms-1.10.16.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -286,7 +295,7 @@
     <orderEntry type="module-library">
       <library name="commons-compress-1.8.1.jar">
         <CLASSES>
-          <root url="file://E:\Users\Louis\Documents\Programmation\Java\Minecraft\1.12\MCP 940/jars/libraries/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar" />
+          <root url="file://$MCP_LOC$/jars/libraries/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -295,7 +304,7 @@
     <orderEntry type="module-library">
       <library name="httpclient-4.3.3.jar">
         <CLASSES>
-          <root url="file://E:\Users\Louis\Documents\Programmation\Java\Minecraft\1.12\MCP 940/jars/libraries/org/apache/httpcomponents/httpclient/4.3.3/httpclient-4.3.3.jar" />
+          <root url="file://$MCP_LOC$/jars/libraries/org/apache/httpcomponents/httpclient/4.3.3/httpclient-4.3.3.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -304,7 +313,7 @@
     <orderEntry type="module-library">
       <library name="commons-logging-1.1.3.jar">
         <CLASSES>
-          <root url="file://E:\Users\Louis\Documents\Programmation\Java\Minecraft\1.12\MCP 940/jars/libraries/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar" />
+          <root url="file://$MCP_LOC$/jars/libraries/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -313,7 +322,7 @@
     <orderEntry type="module-library">
       <library name="httpcore-4.3.2.jar">
         <CLASSES>
-          <root url="file://E:\Users\Louis\Documents\Programmation\Java\Minecraft\1.12\MCP 940/jars/libraries/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.jar" />
+          <root url="file://$MCP_LOC$/jars/libraries/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -322,7 +331,7 @@
     <orderEntry type="module-library">
       <library name="fastutil-7.1.0.jar">
         <CLASSES>
-          <root url="file://E:\Users\Louis\Documents\Programmation\Java\Minecraft\1.12\MCP 940/jars/libraries/it/unimi/dsi/fastutil/7.1.0/fastutil-7.1.0.jar" />
+          <root url="file://$MCP_LOC$/jars/libraries/it/unimi/dsi/fastutil/7.1.0/fastutil-7.1.0.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -331,7 +340,7 @@
     <orderEntry type="module-library">
       <library name="log4j-api-2.8.1.jar">
         <CLASSES>
-          <root url="file://E:\Users\Louis\Documents\Programmation\Java\Minecraft\1.12\MCP 940/jars/libraries/org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.jar" />
+          <root url="file://$MCP_LOC$/jars/libraries/org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -340,7 +349,7 @@
     <orderEntry type="module-library">
       <library name="log4j-core-2.8.1.jar">
         <CLASSES>
-          <root url="file://E:\Users\Louis\Documents\Programmation\Java\Minecraft\1.12\MCP 940/jars/libraries/org/apache/logging/log4j/log4j-core/2.8.1/log4j-core-2.8.1.jar" />
+          <root url="file://$MCP_LOC$/jars/libraries/org/apache/logging/log4j/log4j-core/2.8.1/log4j-core-2.8.1.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -349,7 +358,7 @@
     <orderEntry type="module-library">
       <library name="lwjgl-2.9.4-nightly-20150209.jar">
         <CLASSES>
-          <root url="file://E:\Users\Louis\Documents\Programmation\Java\Minecraft\1.12\MCP 940/jars/libraries/org/lwjgl/lwjgl/lwjgl/2.9.4-nightly-20150209/lwjgl-2.9.4-nightly-20150209.jar" />
+          <root url="file://$MCP_LOC$/jars/libraries/org/lwjgl/lwjgl/lwjgl/2.9.4-nightly-20150209/lwjgl-2.9.4-nightly-20150209.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -358,7 +367,7 @@
     <orderEntry type="module-library">
       <library name="lwjgl_util-2.9.4-nightly-20150209.jar">
         <CLASSES>
-          <root url="file://E:\Users\Louis\Documents\Programmation\Java\Minecraft\1.12\MCP 940/jars/libraries/org/lwjgl/lwjgl/lwjgl_util/2.9.4-nightly-20150209/lwjgl_util-2.9.4-nightly-20150209.jar" />
+          <root url="file://$MCP_LOC$/jars/libraries/org/lwjgl/lwjgl/lwjgl_util/2.9.4-nightly-20150209/lwjgl_util-2.9.4-nightly-20150209.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -367,21 +376,10 @@
     <orderEntry type="module-library">
       <library name="text2speech-1.10.3.jar">
         <CLASSES>
-          <root url="file://E:\Users\Louis\Documents\Programmation\Java\Minecraft\1.12\MCP 940/jars/libraries/com/mojang/text2speech/1.10.3/text2speech-1.10.3.jar" />
+          <root url="file://$MCP_LOC$/jars/libraries/com/mojang/text2speech/1.10.3/text2speech-1.10.3.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="jsr305-3.0.1.jar">
-        <CLASSES>
-          <root url="file://E:\Users\Louis\Documents\Programmation\Java\Minecraft\1.12\MCP 940/jars/libraries/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.jar" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="file://E:\Users\Louis\Documents\Programmation\Java\Minecraft\1.12\MCP 940/jars/libraries/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1-sources.jar" />
-        </SOURCES>
       </library>
     </orderEntry>
   </component>
