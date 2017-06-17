@@ -13,6 +13,8 @@ import net.minecraft.init.PotionTypes;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.nbt.NBTTagList;
+import net.minecraft.src.Config;
+import net.minecraft.src.CustomColors;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.Tuple;
 import net.minecraft.util.text.TextFormatting;
@@ -97,7 +99,7 @@ public class PotionUtils
 
         if (effects.isEmpty())
         {
-            return 3694022;
+            return Config.isCustomColors() ? CustomColors.getPotionColor((Potion)null, i) : 3694022;
         }
         else
         {
@@ -111,6 +113,12 @@ public class PotionUtils
                 if (potioneffect.doesShowParticles())
                 {
                     int k = potioneffect.getPotion().getLiquidColor();
+
+                    if (Config.isCustomColors())
+                    {
+                        k = CustomColors.getPotionColor(potioneffect.getPotion(), k);
+                    }
+
                     int l = potioneffect.getAmplifier() + 1;
                     f += (float)(l * (k >> 16 & 255)) / 255.0F;
                     f1 += (float)(l * (k >> 8 & 255)) / 255.0F;
