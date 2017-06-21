@@ -8,6 +8,9 @@ import java.util.Map;
 import java.util.Random;
 import java.util.UUID;
 import javax.annotation.Nullable;
+
+import fr.obelouix.block.ObeBlock;
+import fr.obelouix.init.ObeBlocks;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockDirt;
 import net.minecraft.block.BlockDoublePlant;
@@ -870,6 +873,7 @@ public class Item
         registerItemBlock(Blocks.field_192443_dR, (new ItemCloth(Blocks.field_192443_dR)).setUnlocalizedName("concrete"));
         registerItemBlock(Blocks.field_192444_dS, (new ItemCloth(Blocks.field_192444_dS)).setUnlocalizedName("concrete_powder"));
         registerItemBlock(Blocks.STRUCTURE_BLOCK);
+        registerItemBlock(ObeBlocks.MetroBLOCK);
         registerItem(256, "iron_shovel", (new ItemSpade(Item.ToolMaterial.IRON)).setUnlocalizedName("shovelIron"));
         registerItem(257, "iron_pickaxe", (new ItemPickaxe(Item.ToolMaterial.IRON)).setUnlocalizedName("pickaxeIron"));
         registerItem(258, "iron_axe", (new ItemAxe(Item.ToolMaterial.IRON)).setUnlocalizedName("hatchetIron"));
